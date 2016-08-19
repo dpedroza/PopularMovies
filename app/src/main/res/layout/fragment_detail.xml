@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.davidpedroza.nanodegree.popularmovies.DetailActivityFragment"
+    tools:showIn="@layout/activity_detail"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/title"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Chappie"
+        android:background="#009688"
+        android:textColor="#FFF"
+        android:padding="30dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/poster"
+            android:src="@drawable/wolf"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_margin="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="2015"
+            android:id="@+id/year"
+            android:layout_toRightOf="@+id/poster"
+            android:layout_alignTop="@+id/poster"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="120min"
+            android:id="@+id/duration"
+            android:layout_below="@+id/year"
+            android:layout_alignLeft="@+id/year"
+            android:layout_alignStart="@+id/year" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="8/1/10"
+            android:id="@+id/release_date"
+            android:layout_below="@+id/duration"
+            android:layout_toRightOf="@+id/poster"
+            android:layout_toEndOf="@+id/poster" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Lorem ipsum dolor sit amet, rebum reformidans eu mea. Eu duo ubique suscipit copiosae, has et illud facete, sed an noluisse maluisset. Partem nominavi eligendi ex ius. Eum no vero gubergren, his in paulo verear facilisis. Et quot semper mei. Soleat tempor has an, eu amet fuisset his, velit incorrupte te nec."
+        android:id="@+id/description"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="8dp" />
+
+</LinearLayout>
