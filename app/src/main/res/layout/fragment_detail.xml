@@ -17,7 +17,6 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:text="Chappie"
         android:background="#009688"
         android:textColor="#FFF"
         android:padding="30dp" />
@@ -30,11 +29,13 @@
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:id="@+id/poster"
-            android:src="@drawable/wolf"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_margin="16dp" />
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_alignParentBottom="true" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -72,7 +73,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Lorem ipsum dolor sit amet, rebum reformidans eu mea. Eu duo ubique suscipit copiosae, has et illud facete, sed an noluisse maluisset. Partem nominavi eligendi ex ius. Eum no vero gubergren, his in paulo verear facilisis. Et quot semper mei. Soleat tempor has an, eu amet fuisset his, velit incorrupte te nec."
         android:id="@+id/description"
         android:layout_gravity="center_horizontal"
         android:layout_margin="8dp" />
